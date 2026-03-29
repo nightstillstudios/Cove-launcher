@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Cove Launcher</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Georgia', serif;
+    background: #FAFAF8;
+    color: #2A2018;
+    line-height: 1.75;
+    padding: 0;
+  }
+
+  .header {
+    background: #1A1814;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: #F0E8D8;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+
+  .header .studio {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #C8A87A;
+    text-transform: uppercase;
+  }
+
+  .header .dates {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 12px;
+    color: rgba(240,232,216,0.45);
+    margin-top: 12px;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+
+  h2 {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #1A1814;
+    margin: 48px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E8E0D0;
+  }
+
+  h2:first-child { margin-top: 0; }
+
+  h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #C8A87A;
+    margin: 28px 0 10px;
+  }
+
+  h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2A2018;
+    margin: 20px 0 8px;
+  }
+
+  p {
+    font-size: 15px;
+    color: #3A3028;
+    margin-bottom: 14px;
+  }
+
+  ul {
+    margin: 8px 0 16px 20px;
+  }
+
+  ul li {
+    font-size: 15px;
+    color: #3A3028;
+    margin-bottom: 6px;
+  }
+
+  .badge {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: rgba(200,168,122,0.12);
+    color: #A8885A;
+    border: 1px solid rgba(200,168,122,0.3);
+    border-radius: 100px;
+    padding: 3px 10px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  .note {
+    background: #F5F0E8;
+    border-left: 3px solid #C8A87A;
+    border-radius: 0 6px 6px 0;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 14px;
+    color: #5A4A3A;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0 24px;
+    font-size: 14px;
+  }
+
+  th {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #8A7A6A;
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid #E8E0D0;
+  }
+
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #F0E8DC;
+    color: #3A3028;
+    vertical-align: top;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  code {
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    font-size: 12px;
+    background: #EDE5D8;
+    color: #5A3A1A;
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+
+  a {
+    color: #A8885A;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(168,136,90,0.3);
+  }
+
+  a:hover { border-bottom-color: #A8885A; }
+
+  .divider {
+    border: none;
+    border-top: 1px solid #E8E0D0;
+    margin: 48px 0;
+  }
+
+  .plain-english {
+    background: #1A1814;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 56px;
+  }
+
+  .plain-english .pe-label {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #C8A87A;
+    margin-bottom: 4px;
+  }
+
+  .plain-english h2 {
+    color: #F0E8D8;
+    border-bottom-color: rgba(240,232,216,0.1);
+    margin-top: 24px;
+    font-size: 22px;
+  }
+
+  .plain-english p {
+    color: rgba(240,232,216,0.75);
+  }
+
+  .plain-english h4 {
+    color: #C8A87A;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+
+  .plain-english .disclaimer {
+    font-size: 12px;
+    color: rgba(240,232,216,0.35);
+    font-style: italic;
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(240,232,216,0.1);
+  }
+
+  .contact-box {
+    background: #F5F0E8;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin: 16px 0;
+  }
+
+  .contact-box p {
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+
+  .contact-box a {
+    font-size: 14px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 32px 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 12px;
+    color: #8A7A6A;
+    border-top: 1px solid #E8E0D0;
+    margin-top: 48px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p class="studio">Night Still Studios</p>
+  <h1>Privacy Policy</h1>
+  <p class="dates">Effective: March 2026 &nbsp;·&nbsp; Last updated: March 2026</p>
+</div>
+
+<div class="container">
+
+  <!-- 1 -->
+  <h2>1. Introduction</h2>
+  <p>This Privacy Policy describes how Night Still Studios ("we," "us," or "our") collects, uses, and handles information in connection with Cove Launcher (the "App"), an Android home screen launcher application. By using the App, you agree to the practices described in this policy.</p>
+
+  <!-- 2 -->
+  <h2>2. Information We Collect</h2>
+
+  <h3>2.1 Information Collected Automatically</h3>
+
+  <h4>Crash Reports and Performance Data</h4>
+  <p>If you enable Usage Reports in General Settings, we collect anonymous crash reports and performance data through Google Firebase Crashlytics and Firebase Analytics. This data includes:</p>
+  <ul>
+    <li>Device model and manufacturer</li>
+    <li>Android version</li>
+    <li>App version</li>
+    <li>Crash stack traces and error logs</li>
+    <li>App performance metrics</li>
+  </ul>
+  <div class="note">Usage Reports are <strong>disabled by default</strong>. You may enable or disable this feature at any time in General Settings. When disabled, no analytics or crash data is collected or transmitted.</div>
+
+  <h3>2.2 Information You Provide or Authorise</h3>
+
+  <h4>Location Data <span class="badge">Optional</span></h4>
+  <p>If you enable the Weather Widget, the App requests access to your device's location to retrieve local weather conditions. Location data is used solely for the purpose of fetching weather information and is not stored by us, not logged, and not transmitted to us or any third party beyond the weather data request. You may revoke location permission at any time through Android Settings.</p>
+
+  <h4>Contacts <span class="badge">Optional</span></h4>
+  <p>If you enable Contact Search within the App's search settings, the App reads your device contacts to display matching results when you perform a search. Contact data is processed entirely on your device and is never transmitted to us or any third party. You may revoke contacts permission at any time through Android Settings.</p>
+
+  <h4>Notifications <span class="badge">Optional</span></h4>
+  <p>If you enable Notification Dots or the Music Widget, the App uses Android's Notification Listener Service to read notification metadata for the purpose of displaying notification badges on app icons and media information in the music widget. Notification content is processed locally on your device and is never stored, transmitted, or shared. You may disable this permission at any time through Android Settings.</p>
+
+  <!-- 3 -->
+  <h2>3. Information We Do Not Collect</h2>
+  <p>We do not collect, store, or transmit the following, regardless of your settings:</p>
+  <ul>
+    <li><strong>Your installed application list.</strong> Although the App requires access to all installed packages to function as a home screen launcher, this information remains on your device and is never transmitted to us or any third party.</li>
+    <li><strong>App usage patterns</strong> used for sort-by-usage functionality. These are stored entirely on your device.</li>
+    <li><strong>App category data.</strong> Categories are determined using a lookup file bundled within the App and on-device processing only.</li>
+    <li><strong>Any personally identifiable information</strong> beyond what is explicitly described in this policy.</li>
+  </ul>
+
+  <!-- 4 -->
+  <h2>4. On-Device Processing</h2>
+  <p>The following features operate entirely on your device. No data from these features is transmitted externally:</p>
+  <ul>
+    <li><strong>App drawer organisation and categories</strong> — determined using a locally bundled category reference file</li>
+    <li><strong>Sort by usage</strong> — usage patterns stored and processed locally</li>
+    <li><strong>Depth Effect</strong> — foreground and background subject segmentation is performed using Google ML Kit running on your device; no images or wallpaper data are transmitted externally</li>
+    <li><strong>Hidden apps</strong> — stored locally in app preferences</li>
+    <li><strong>All launcher settings and preferences</strong> — stored locally using Android DataStore</li>
+  </ul>
+
+  <!-- 5 -->
+  <h2>5. Third-Party Services</h2>
+
+  <h4>Google Firebase</h4>
+  <p>When Usage Reports are enabled, crash and performance data is transmitted to Google Firebase. This data is governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. We do not sell or share Firebase data with any other third party.</p>
+
+  <h4>Weather Data Provider</h4>
+  <p>When the Weather Widget is enabled, your device location is transmitted to a weather data provider to retrieve current weather conditions. No personally identifying information accompanies this request.</p>
+
+  <h4>Google ML Kit</h4>
+  <p>The Depth Effect feature uses Google ML Kit's Subject Segmentation API. ML Kit processing occurs on-device. No images, wallpaper data, or processing results are transmitted to Google or any other party. ML Kit's terms are available at <a href="https://developers.google.com/ml-kit/terms" target="_blank">developers.google.com/ml-kit/terms</a>.</p>
+
+  <!-- 6 -->
+  <h2>6. Permissions</h2>
+  <p>The App requests the following Android permissions. Each permission is used solely as described:</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Permission</th>
+        <th>Purpose</th>
+        <th>Required</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>QUERY_ALL_PACKAGES</code></td>
+        <td>Display all installed apps in the app drawer and enable app launching</td>
+        <td>Yes — core functionality</td>
+      </tr>
+      <tr>
+        <td><code>VIBRATE</code></td>
+        <td>Provide haptic feedback for interactions</td>
+        <td>Yes — core functionality</td>
+      </tr>
+      <tr>
+        <td><code>SET_ALARM</code></td>
+        <td>Enable alarm shortcuts in search results</td>
+        <td>Yes — core functionality</td>
+      </tr>
+      <tr>
+        <td><code>ACCESS_FINE_LOCATION</code></td>
+        <td>Retrieve local weather for the Weather Widget</td>
+        <td>No — optional, user-enabled</td>
+      </tr>
+      <tr>
+        <td><code>READ_CONTACTS</code></td>
+        <td>Display contact results in search</td>
+        <td>No — optional, user-enabled</td>
+      </tr>
+      <tr>
+        <td><code>BIND_NOTIFICATION_LISTENER_SERVICE</code></td>
+        <td>Display notification dots and media information</td>
+        <td>No — optional, user-enabled</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 7 -->
+  <h2>7. Data Retention</h2>
+  <p>We do not retain personally identifiable information. Anonymous crash and performance data transmitted through Firebase is retained in accordance with Google Firebase's data retention policies.</p>
+  <p>All locally stored data — including settings, preferences, wallpaper selections, and hidden app lists — remains on your device and is deleted when you clear the App's data or uninstall the App.</p>
+
+  <!-- 8 -->
+  <h2>8. Data Security</h2>
+  <p>We implement appropriate technical measures to protect the information we handle. Locally stored data is stored using Android's DataStore with application-level isolation. Optional usage report data transmitted to Firebase is encrypted in transit.</p>
+  <p>No method of transmission or storage is completely secure. We cannot guarantee absolute security of any data.</p>
+
+  <!-- 9 -->
+  <h2>9. Children's Privacy</h2>
+  <p>The App is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information through the App, please contact us at <a href="mailto:nightstillstudios@gmail.com">nightstillstudios@gmail.com</a> and we will take steps to delete such information.</p>
+
+  <!-- 10 -->
+  <h2>10. Your Rights and Choices</h2>
+  <p>You have the following rights and controls:</p>
+  <ul>
+    <li><strong>Disable crash reporting and analytics</strong> — turn off Usage Reports in General Settings at any time</li>
+    <li><strong>Revoke permissions</strong> — revoke location, contacts, or notification access at any time through Android Settings</li>
+    <li><strong>Delete all app data</strong> — clear the App's data through Android Settings → Apps → Cove Launcher → Clear Data</li>
+    <li><strong>Uninstall</strong> — uninstalling the App removes all locally stored data from your device</li>
+    <li><strong>Contact us</strong> — email <a href="mailto:nightstillstudios@gmail.com">nightstillstudios@gmail.com</a> with any privacy questions or requests</li>
+  </ul>
+
+  <!-- 11 -->
+  <h2>11. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. When we make changes, we will update the "Last updated" date at the top of this policy. If changes are significant, we will provide notice through the App. Continued use of the App after changes constitutes your acceptance of the updated policy.</p>
+
+  <!-- 12 -->
+  <h2>12. Contact</h2>
+  <div class="contact-box">
+    <p><strong>Night Still Studios</strong></p>
+    <p>Email: <a href="mailto:nightstillstudios@gmail.com">nightstillstudios@gmail.com</a></p>
+  </div>
+
+  <!-- 13 -->
+  <h2>13. Governing Law</h2>
+  <p>This Privacy Policy is governed by the laws of India. Any disputes arising from this policy shall be subject to the jurisdiction of the courts of India.</p>
+
+  <hr class="divider">
+   <p>If you have any questions email me at <a href="mailto:nightstillstudios@gmail.com" style="color:#C8A87A; border-bottom-color:rgba(200,168,122,0.3);">nightstillstudios@gmail.com</a>. I'm a solo developer and I read every email personally.</p>
+  
+
+</div>
+
+<footer>
+  &copy; 2026 Night Still Studios &nbsp;·&nbsp; Cove Launcher
+</footer>
+
+</body>
+</html>
